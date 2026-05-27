@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        label{
+            background-color: lightblue;
+            color:aqua;
+            size: 20px;
+        }
+        </style>
+        <link rel="stylesheet" href="style1.css">
 </head>
-<body>
+<body id="image" style="background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg');">
     <h1>This is user input Form</h1>
-    <form action="/submit" method="post">
+    <form action="?" method="get" style="margin-left:10%;">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="email">Email:</label><br>
@@ -15,5 +23,26 @@
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password"><br><br>
         <input type="submit" value="Submit">
+
+        <!-- table -->
+         <h1>Table</h1>
+    <table border="1" class="style1-css">
+        <tr style="background-color:lightgreen; color:deepskyblue;">
+            <th>Name</th>
+            <th>Employee ID</th>
+            <th>City</th>
+        </tr>
+        <tr style="background-color:lightgreen; color:deepskyblue;">
+            <td>Yash</td>
+            <td>1412</td>
+            <td>Indore</td>
+        </tr>
+        <tr style="background-color:lightgreen; color:deepskyblue;">
+            <td>Rahul</td>
+            <td>2323</td>
+            <td>Bhopal</td>
+        </tr>
+    </table>
+
 </body>
 </html>
