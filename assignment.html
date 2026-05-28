@@ -10,36 +10,37 @@
             padding: 7px;
         }
     </style>
+    <link rel="stylesheet" href="code.css">
 </head>
 <body>
     <h1 style="margin-left: 30%;color: darkblue;">Student Registration Form</h1>
     <form action="?" method="get" style="margin-left:20% ;">
         <label for="Full Name">Full Name:</label><br>
-        <input style="width: 350px; height: 30px;" type="text" id="Full Name" name="Full Name"><br>
+        <input type="text" id="Full Name" name="Full Name" placeholder="Enter your full name"><br>
         <label for="email">Email:</label><br>
-        <input style="width: 350px; height: 30px;" type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email"><br>
         <label for="password">Password:</label><br>
-        <input style="width: 350px; height: 30px;"  type="password" id="password" name="password"><br>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password"><br>
         <label for="Phone Number">Phone Number:</label><br>
-        <input style="width: 350px; height: 30px;" type="tel" id="Phone Number" name="Phone Number"><br>
+        <input type="tel" id="Phone Number" name="Phone Number" placeholder="Enter Your Phone Number"><br>
         <label for="Birth Date">Birth Date:</label><br>
-        <input style="width: 350px; height: 30px;" type="date" id="Birth Date" name="Birth Date"><br>
+        <input type="date" id="Birth Date" name="Birth Date" placeholder="Enter Your Birth Date"><br>
         <label for="select">Select Course:</label><br>
-        <select id="select" name="select" style="width: 350px; height: 30px;">
+        <select id="select" name="select">
             <option value="web development">Web Development</option>
             <option value="data science">Data Science</option>
             <option value="cyber security">Cyber Security</option>
         </select><br><br>
         <label for="select gender">Select Gender:</label><br>
-        <select id="select gender" name="select gender" style="width: 350px; height: 30px;">
+        <select id="select gender" name="select gender">
             <option value="male">Male</option>
             <option value="female"> Female</option>
             <option value="other">Other</option>
         </select><br><br>
         <label for="enter address"  >Enter Address:</label><br>
-        <textarea id="enter address" name="enter address" rows="4" cols="50" style="width: 350px; height: 60px;">
+        <textarea id="enter address" name="enter address" rows="4" cols="50">
         </textarea><br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" style="width: 100px; height: 30px; background-color: darkblue; color: white; border: none; border-radius: 5px; cursor: pointer;">
     </form>
     
 <table border="1" width="60%" height="200" style="margin-left:20%;"> 
