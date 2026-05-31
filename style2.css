@@ -1,0 +1,202 @@
+/* Body */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9;
+}
+
+/* Navbar */
+.navbar{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+}
+
+.logo{
+    font-size: 18px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Heading */
+.heading{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.heading h1{
+    font-size: 50px;
+}
+
+.heading p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Section Heading */
+h2{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+/* Flexbox */
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 30px;
+}
+
+.flex-box{
+    width: 250px;
+    height: 80px;
+
+    border: 1px solid gray;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+/* Grid Layout */
+.grid-container{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin: 40px 20px;
+}
+
+.grid-box{
+    background-color: orange;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+/* Relative */
+.relative-box{
+    background-color: lightblue;
+
+    margin: 40px;
+    padding: 30px;
+
+    border: 1px solid gray;
+
+    position: relative;
+
+    font-size: 25px;
+}
+
+/* Parent Box */
+.parent-box{
+    margin: 40px;
+    height: 200px;
+
+    border: 1px solid gray;
+
+    position: relative;
+
+    padding: 20px;
+
+    font-size: 30px;
+}
+
+/* Absolute */
+.absolute-box{
+    background-color: red;
+    color: white;
+
+    padding: 20px;
+
+    position: absolute;
+
+    top: 15px;
+    right: 15px;
+
+    font-size: 25px;
+}
+
+/* Sticky */
+.sticky-box{
+    background-color: purple;
+    color: white;
+
+    margin: 40px;
+    padding: 20px;
+
+    position: sticky;
+    top: 0;
+
+    font-size: 25px;
+}
+
+/* Static */
+.static-box{
+    background-color: white;
+
+    margin: 40px;
+    padding: 30px;
+
+    border: 1px solid gray;
+
+    font-size: 25px;
+}
+
+/* Fixed */
+.fixed-box{
+    background-color: green;
+    color: white;
+
+    padding: 20px;
+
+    position: fixed;
+
+    bottom: 20px;
+    right: 20px;
+
+    font-size: 25px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 50px;
+
+    font-size: 25px;
+}
